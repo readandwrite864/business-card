@@ -1,6 +1,25 @@
 {
   "name": "business-card",
   "version": "1.0.0",
-  "type": "module",
-  "main": "index.ts"
+  "private": true,
+  "scripts": {
+    "start": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/apollo": "latest",
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "@nestjs/graphql": "latest",
+    "@nestjs/platform-express": "latest",
+    "@as-integrations/express5": "latest",
+    "graphql": "latest",
+    "reflect-metadata": "latest",
+    "rxjs": "latest"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "latest",
+    "@nestjs/schematics": "latest",
+    "@types/node": "latest",
+    "typescript": "^6.0.0"
+  }
 }
