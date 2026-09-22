@@ -12,6 +12,7 @@
     "@nestjs/graphql": "latest",
     "@nestjs/platform-express": "latest",
     "@as-integrations/express5": "latest",
+    "@prisma/client": "^6.0.0",
     "graphql": "latest",
     "reflect-metadata": "latest",
     "rxjs": "latest"
@@ -20,6 +21,7 @@
     "@nestjs/cli": "latest",
     "@nestjs/schematics": "latest",
     "@types/node": "latest",
+    "prisma": "^6.0.0",
     "typescript": "^6.0.0"
   }
 }
